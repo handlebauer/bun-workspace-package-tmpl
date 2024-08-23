@@ -1,6 +1,6 @@
 {
   "name": "bun-workspace-package-tmpl",
-  "version": "0.2.0",
+  "version": "0.0.1",
   "module": "src/index.ts",
   "type": "module",
   "exports": {
