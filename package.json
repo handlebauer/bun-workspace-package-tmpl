@@ -1,0 +1,23 @@
+{
+  "name": "bun-workspace-package-tmpl",
+  "version": "0.0.1",
+  "module": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "clean": "rm -rf dist",
+    "build": "bun run clean && bun run lint && bun run format && bun build.ts && echo 'Done'.",
+    "bump": "bunx bumpp"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "dependencies": {
+    "@logtape/logtape": "^0.4.3",
+    "zod": "^3.23.8"
+  }
+}
