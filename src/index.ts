@@ -1,4 +1,3 @@
-import { config } from '~/config'
-import { logger } from '~/utils'
+import { config } from "~/config";
 
-logger.info`v${config.VERSION}`
+console.log(`${config.PACKAGE_NAME} (v${config.VERSION})`);
