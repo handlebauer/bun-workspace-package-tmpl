@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "module": "src/index.ts",
   "type": "module",
+  "exports": {
+    "import": "./src/index.ts"
+  },
   "scripts": {
     "lint": "eslint .",
     "format": "prettier --write .",
