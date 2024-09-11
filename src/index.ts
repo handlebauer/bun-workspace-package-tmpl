@@ -1,3 +1,3 @@
-import { config } from '~/config'
+import { env } from "~/env";
 
-console.log(`${config.PACKAGE_NAME} (v${config.VERSION})`)
+console.log(`${env.PACKAGE_NAME} (v${env.VERSION})`);
